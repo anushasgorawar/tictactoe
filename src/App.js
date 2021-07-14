@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
+import Board from './components/Board'
 
-import Board from '../components/Board';
+import "./styles/root.scss"
 
 const App = () => {
   return (
-      <div>
-        <h1>Tic-Tac-Toe Game</h1>
+      <div class="app">
+        <h1>Tic-Tac-Toe! </h1>
         <Board/>
       </div>
   );
