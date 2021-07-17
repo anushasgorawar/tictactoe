@@ -5,7 +5,7 @@ import "./styles/root.scss"
 
 const App = () => {
   return (
-      <div class="app">
+      <div className="app">
         <h1>Tic-Tac-Toe! </h1>
         <Board/>
       </div>
