@@ -40,3 +40,29 @@ button {
     }
   }
 }
+
+
+$black:#50BFE6
+;
+
+body,.history {
+  font-family: 'Roboto', sans-serif;
+  background-color: $black;
+  color: black;
+}
+.btn-start{
+border: 1px solid #FFFF66;
+ background-color: #CCFF00;
+  font-size: 20px;
+margin:10px;
+margin-top: 20px;
+padding:10px;
+border-radius: 5px;
+&:hover{
+margin:8px;
+margin-top: 18px;
+padding: 12px;
+}
+}
+
+

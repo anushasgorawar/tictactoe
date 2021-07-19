@@ -47,10 +47,10 @@ const App = () => {
       <h1>Tic-Tac-Toe! </h1>
       <Message message={message} winner={winner} current={current} />
       <Board board={current.board} handleSquareClick={handleSquareClick} winningSquares={winningSquares}/>
-      <button type="Button" onClick={startNewGame}>
+      <button type="Button" onClick={startNewGame} className="btn-start">
         Start New Game
       </button>
-      <History history={history} moveTo={moveTo} currentMove={currentMove} />
+      <History history={history} moveTo={moveTo} currentMove={currentMove} className="history"/>
     </div>
   );
 };
