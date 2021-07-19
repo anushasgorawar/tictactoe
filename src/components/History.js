@@ -9,9 +9,9 @@ const History = ({ history,moveTo,currentMove }) => {
           <li key={move}>
             <button style={
 { fontWeight: move===currentMove?'bold':'normal'}}
-              type="button"
+              type="button" className={`history ${move===currentMove?'active':''}`}
               onClick={() => {
-                moveTo(move);
+                moveTo(move)
               }}
             >
               {move === 0 ? `Go to game start` : `Go to move #${move}`}
