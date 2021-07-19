@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Board from './components/Board';
 import History from './components/History';
 import Message from './components/Message';
-import Square from './components/Square';
 import { calculateWinner } from './helpers';
 import './styles/root.scss';
 
